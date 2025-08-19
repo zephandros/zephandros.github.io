@@ -1,85 +1,158 @@
-<!DOCTYPE html>
-<html lang="es" data-bs-theme="auto">
+<!doctype html>
+<html data-bs-theme="dark">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Twelves System Reference Document">
-        <meta name="author" content="Zephandro">
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>TwelvesRPG SRD</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
+                <title>TWELVES</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <meta name="description" content="Twelves El Juego de Rol">
+            
+            <meta name="author" content="Zephandro">
+
+            
+                <link  rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+            
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="assets/css/root.min.css">
+            <link rel="stylesheet" href="assets/css/main.min.css">
+            <link rel="stylesheet" href="assets/css/media.min.css">
+            <link rel="stylesheet" href="assets/css/mkdocstrings.min.css">
+                <link href="assets/css/extra.css" rel="stylesheet">
+                <script src="search/main.js"></script>
+
+            
+                
+                    <style>
+                        :root {
+                            --text: white;
+                            --title: white;
+                            --primary: white;
+                            --background: black;
+                        }
+                    </style>
+                
+            
     </head>
 
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href=".">TwelvesRPG SRD</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="attributes/" class="nav-link">Atributos</a>
-                            </li>
-                        </ul>
+        
+            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">TWELVES</span>
+        
 
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="attributes/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <script src="js/darkmode.js"></script>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-    </div>
 
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class=" active 
+                            nav-link text-gray text-decoration-none" href=".">[Inicio]</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="
+                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Reglas del Juego]</a>
+                            <ul class="dropdown-menu">
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="character_creation/" class="dropdown-item text-decoration-none ">Creación de Personaje</a>
+    </li>
+<!-- endblock -->
+                                    <!-- block dropdown-menu -->
+    <li>
+        <a href="attributes/" class="dropdown-item text-decoration-none ">Como Jugar</a>
+    </li>
+<!-- endblock -->
+                            </ul>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
+                                    <!-- block sidebar -->
+<div class="navbar-expand-md" role="complementary">
+    
+    <div class="sidebar navbar-collapse collapse card">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#twelvesrpg-srd" class="nav-link">TwelvesRPG SRD</a>
+            <li class="nav-item" data-bs-level="1"><a href="#twelves" class="nav-link">TWELVES</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#indice" class="nav-link">Índice</a>
+            <li class="nav-item" data-bs-level="2"><a href="#que-es-twelves" class="nav-link">¿QUÉ ES TWELVES?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#que-se-necesita-para-jugar" class="nav-link">¿QUÉ SE NECESITA PARA JUGAR?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#el-narrador" class="nav-link">EL NARRADOR</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#los-dados" class="nav-link">LOS DADOS</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#como-se-juega" class="nav-link">¿CÓMO SE JUEGA?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -87,95 +160,88 @@
             </li>
         </ul>
     </div>
-</div></div>
-                    <div class="col-md-9" role="main">
-
-<h1 id="twelvesrpg-srd">TwelvesRPG SRD</h1>
-<p>This is the System Reference Document for TwelvesRPG</p>
-<h2 id="indice">Índice</h2>
-<ul>
-<li><a href="attributes/">Atributos</a></li>
-</ul></div>
-            </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
 </div>
+<!-- endblock -->
+                            </div>
+                            <div class="col-md-9 col-12" id="component-content">
+                                    <!-- block content -->
+<section class="container post" id="component-content">
+    <article>
+        <header>
+            
+            
+        </header>
+        <p><h1 id="twelves">TWELVES</h1>
+<p>Bienvenido al sitio oficial de TWELVES. Aquí encontrarás las reglas básicas y algunos otros recursos para jugar.</p>
+<h2 id="que-es-twelves">¿QUÉ ES TWELVES?</h2>
+<p><strong>TWELVES</strong> es un juego de rol, es decir, un juego donde los jugadores interpretan el papel de un personaje en una historia. El nombre se debe a que principalmente se utilizan dos dados de doce caras para jugar.</p>
+<h2 id="que-se-necesita-para-jugar">¿QUÉ SE NECESITA PARA JUGAR?</h2>
+<p>Para jugar a <strong>TWELVES</strong> se necesitan dos dados de doce caras y algunos otros dados de varias caras y algo donde tomar notas. Normalmente se juega entre varias personas pero debe haber al menos un <em>Narrador</em> y una o más personas que serán los jugadores.</p>
+<h2 id="el-narrador">EL NARRADOR</h2>
+<p>El narrador, o maestro del juego como se le denomina en muchos otros juegos, es la persona encargada de contar la historia en la que los jugadores participan, también interpreta a la mayor parte de los personajes no jugadores (PNJs) y actúa de mediador cuando hay conflictos.</p>
+<h2 id="los-dados">LOS DADOS</h2>
+<p>Los dados que se utilizan en el juego son varios poliedros de distinto número de caras. Principalmente se utilizarán dos dados de doce caras y comúnmente se abrevian como 2d12, escribiendo el número de dados que se desean usar seguido de una letra "d" y por último el número de caras que debe tener el dado.</p>
+<h2 id="como-se-juega">¿CÓMO SE JUEGA?</h2>
+<p><strong>1</strong> El <em>Narrador</em> describe el entorno y la situación en el que los jugadores se encuentran. Aquí el Narrador puede declarar el inicio de un <a href="encounter/">Encuentro</a> o continuar el actual.</p>
+<p><strong>2</strong> Los jugadores describen lo que sus personajes quieren hacer. Puede ser una acción grupal que todos realizan al mismo tiempo, o cada uno describe lo que su personaje hace de forma individual.
+Opcionalmente los jugadores pueden tomar turnos para realizar sus acciones, a menos que los jugadores estén en un <a href="encounter/">Encuentro</a>, en cuyo caso es obligatorio llevar un orden de turnos. Si la acción del jugador no deja muy claro cuál va a ser el resultado, se tiran los dados para saber el resultado, a esto se le llama una <a href="">Tirada de Atributos</a></p>
+<p><strong>3</strong> El <em>Narrador</em> describe el resultado de las acciones de los personajes, continuando la historia y dando lugar a nuevas situaciones y entornos, lo que nos regresa de nuevo al punto 1.</p></p>
+    </article>
+</section>
+<!-- endblock -->
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </main>
+
+            
+                    <!-- block preview -->
+    <div class="preview row row-cols-md-3 text-center pt-md-3" id="component-preview">
+        <div class="col themed-grid-col">
+            <a rel="prev" class="nav-link disabled">
+                <i class="fa fa-arrow-left"></i> Previous
+            </a>
+        </div>
+        <div class="col themed-grid-col"></div>
+        <div class="col themed-grid-col">
+            <a rel="next" href="character_creation/" class="nav-link">
+                Next <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+<!-- endblock -->
+            
+
+            
+                    <!-- block footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top" id="component-footer">
+    <div class="row">
+        <div class="col-12 col-md">
+                <!-- block copyright -->
+
+    <small class="d-block mb-3">
+        Made with
+        <a href="https://github.com/FernandoCelmer/mkdocs-simple-blog" target="_blank" rel="noopener">
+            Simple Blog for MkDocs
+        </a>
+    </small>
+
+<!-- endblock -->
+        </div>
+    </div>
+</footer>
+<!-- endblock -->
+            
+        </div>
+
+            <script>var base_url = '.';</script>
+            <script src="assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="assets/js/bootstrap.bundle.min.js""></script>
+            <script src="assets/js/main.min.js""></script>
+                <script src="search/main.js" defer></script>
 
     </body>
-</html>
 
-<!--
-MkDocs version : 1.6.1
-Build Date UTC : 2025-08-18 06:14:02.410031+00:00
--->
+</html>

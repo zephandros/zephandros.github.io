@@ -7,3 +7,62 @@
 * {
   font-family: 'Lexend', sans-serif;
 }
+
+/* 
+cyan    #00FFE0
+azure   #009EFF
+blue    #001FFF
+purple  #6100FF
+magenta #E000FF
+rose    #FF009E
+red     #FF001F
+orange  #FF6100
+yellow  #FFE000
+lime    #9EFF00
+green   #00E000
+emerald #00FF80 
+*/
+
+h1 {
+  font-weight: bold !important;
+}
+h2 {
+  font-weight: bold !important;
+}
+
+p > a {
+  color: #FFE000 !important;
+}
+p > a:hover {
+  color: #E000FF !important; 
+}
+
+.success {
+  color: #00E000 !important;
+  background-color: transparent !important;
+}
+
+.fail {
+  color: #FF001F !important;
+  background-color: transparent !important;
+}
+
+.crit-success {
+  color: #00FF80 !important;
+  background-color: transparent !important;
+}
+
+.crit-fail {
+  color: #FF009E !important;
+  background-color: transparent !important;
+}
+
+.luck{
+  color: #FFE000 !important;
+  background-color: transparent !important;
+}
+
+.fail-luck{
+  color: #FF6100 !important;
+  background-color: transparent !important;
+}

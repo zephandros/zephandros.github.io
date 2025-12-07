@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "label": "Class",
+    "options": [
+      {
+        "label": "Bard",
+        "tag": "bard"
+      },
+      {
+        "label": "Cleric",
+        "tag": "cleric"
+      },
+      {
+        "label": "Druid",
+        "tag": "druid"
+      },
+      {
+        "label": "Paladin",
+        "tag": "paladin"
+      },
+      {
+        "label": "Ranger",
+        "tag": "ranger"
+      },
+      {
+        "label": "Sorcerer",
+        "tag": "sorcerer"
+      },
+      {
+        "label": "Warlock",
+        "tag": "warlock"
+      },
+      {
+        "label": "Wizard",
+        "tag": "wizard"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "label": "School",
+    "options": [
+      {
+        "label": "Abjuration",
+        "tag": "abjuration"
+      },
+      {
+        "label": "Conjuration",
+        "tag": "conjuration"
+      },
+      {
+        "label": "Divination",
+        "tag": "divination"
+      },
+      {
+        "label": "Enchantment",
+        "tag": "enchantment"
+      },
+      {
+        "label": "Illusion",
+        "tag": "illusion"
+      },
+      {
+        "label": "Necromancy",
+        "tag": "necromancy"
+      },
+      {
+        "label": "Transmutation",
+        "tag": "transmutation"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "label": "Level",
+    "options": [
+      {
+        "label": "Cantrip",
+        "tag": "cantrip"
+      },
+      {
+        "label": "1st Level",
+        "tag": "first"
+      },
+      {
+        "label": "2nd Level",
+        "tag": "second"
+      },
+      {
+        "label": "3rd Level",
+        "tag": "third"
+      },
+      {
+        "label": "4th Level",
+        "tag": "fourth"
+      },
+      {
+        "label": "5th Level",
+        "tag": "fifth"
+      },
+      {
+        "label": "6th Level",
+        "tag": "sixth"
+      },
+      {
+        "label": "7th Level",
+        "tag": "seventh"
+      },
+      {
+        "label": "8th Level",
+        "tag": "eighth"
+      },
+      {
+        "label": "9th Level",
+        "tag": "ninth"
+      }
+    ]
+  }
+]

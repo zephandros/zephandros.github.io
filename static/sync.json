@@ -1,0 +1,14 @@
+[
+    {
+        "name": "spells",
+        "version": 1
+    },
+    {
+        "name": "spellfilters",
+        "version": 1
+    },
+    {
+        "name": "statblocks",
+        "version": 1
+    }
+]

@@ -3,11 +3,17 @@
         "id": 1,
         "name": "Acid Splash",
         "school": "Evocation",
-        "spell_lists":["Sorcerer","Wizard"],
+        "spell_lists": [
+            "Sorcerer",
+            "Wizard"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "60 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -16,7 +22,7 @@
             },
             {
                 "type": "labeled",
-                "label":"Cantrip Upgrade",
+                "label": "Cantrip Upgrade",
                 "text": "The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
             }
         ],
@@ -28,11 +34,19 @@
         "id": 2,
         "name": "Blade Ward",
         "school": "Abjuration",
-        "spell_lists": ["Bard","Sorcerer","Warlock","Wizard"],
+        "spell_lists": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "Self",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Concentration, up to 1 minute",
         "description": [
             {
@@ -42,17 +56,26 @@
         ],
         "previous_spell": 1,
         "next_spell": 3,
-        "special": ["C"]
+        "special": [
+            "C"
+        ]
     },
     {
         "id": 3,
         "name": "Chill Touch",
         "school": "Necromancy",
-        "spell_lists": ["Sorcerer","Warlock","Wizard"],
+        "spell_lists": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "Touch",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -73,11 +96,19 @@
         "id": 4,
         "name": "Dancing Lights",
         "school": "Illusion",
-        "spell_lists": ["Bard","Sorcerer","Wizard"],
+        "spell_lists": [
+            "Bard",
+            "Sorcerer",
+            "Wizard"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "120 feet",
-        "components": ["V","S","M (a bit of phosphorus)"],
+        "components": [
+            "V",
+            "S",
+            "M (a bit of phosphorus)"
+        ],
         "duration": "Concentration, up to 1 minute",
         "description": [
             {
@@ -91,17 +122,24 @@
         ],
         "previous_spell": 3,
         "next_spell": 5,
-        "special": ["C"]
+        "special": [
+            "C"
+        ]
     },
     {
         "id": 5,
         "name": "Druidcraft",
         "school": "Transmutation",
-        "spell_lists": ["Druid"],
+        "spell_lists": [
+            "Druid"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "30 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -137,11 +175,16 @@
         "id": 6,
         "name": "Eldritch Blast",
         "school": "Evocation",
-        "spell_lists": ["Warlock"],
+        "spell_lists": [
+            "Warlock"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "120 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -162,11 +205,18 @@
         "id": 7,
         "name": "Elementalism",
         "school": "Transmutation",
-        "spell_lists": ["Druid","Sorcerer","Wizard"],
+        "spell_lists": [
+            "Druid",
+            "Sorcerer",
+            "Wizard"
+        ],
         "level": 0,
         "casting_time": "Action",
         "range": "30 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -207,11 +257,17 @@
         "id": 8,
         "name": "Reincarnate",
         "school": "Necromancy",
-        "spell_lists":["Druid"],
+        "spell_lists": [
+            "Druid"
+        ],
         "level": 5,
         "casting_time": "1 hour",
         "range": "Touch",
-        "components": ["V","S","M (rare oils worth 1,000+ GP, which the spell consumes)"],
+        "components": [
+            "V",
+            "S",
+            "M (rare oils worth 1,000+ GP, which the spell consumes)"
+        ],
         "duration": "Instantaneous",
         "description": [
             {
@@ -222,22 +278,50 @@
                 "type": "table",
                 "table": [
                     {
-                        "rows": ["1d10","1","2","3","4","5"],
+                        "rows": [
+                            "1d10",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
                         "alignment": "center",
                         "weight": 0.4
                     },
                     {
-                        "rows": ["Species","Aasimar","Dragonborn","Dwarf","Elf","Gnome"],
+                        "rows": [
+                            "Species",
+                            "Aasimar",
+                            "Dragonborn",
+                            "Dwarf",
+                            "Elf",
+                            "Gnome"
+                        ],
                         "alignment": "start",
                         "weight": 1
                     },
                     {
-                        "rows": ["1d10","6","7","8","9","10"],
+                        "rows": [
+                            "1d10",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10"
+                        ],
                         "alignment": "center",
                         "weight": 0.4
                     },
                     {
-                        "rows": ["Species","Goliath","Halfling","Human","Orc","Tiefling"],
+                        "rows": [
+                            "Species",
+                            "Goliath",
+                            "Halfling",
+                            "Human",
+                            "Orc",
+                            "Tiefling"
+                        ],
                         "alignment": "start",
                         "weight": 1
                     }
@@ -250,17 +334,29 @@
         ],
         "previous_spell": 0,
         "next_spell": 0,
-        "special": ["M"]
+        "special": [
+            "M"
+        ]
     },
     {
         "id": 9,
         "name": "Aid",
         "school": "Abjuration",
-        "spell_lists": ["Bard","Cleric","Druid","Paladin","Ranger"],
+        "spell_lists": [
+            "Bard",
+            "Cleric",
+            "Druid",
+            "Paladin",
+            "Ranger"
+        ],
         "level": 2,
         "casting_time": "Action",
         "range": "30 feet",
-        "components": ["V","S","M (a strip of white cloth)"],
+        "components": [
+            "V",
+            "S",
+            "M (a strip of white cloth)"
+        ],
         "duration": "8 hours",
         "description": [
             {
@@ -281,11 +377,18 @@
         "id": 10,
         "name": "Alarm",
         "school": "Abjuration",
-        "spell_lists": ["Ranger","Wizard"],
+        "spell_lists": [
+            "Ranger",
+            "Wizard"
+        ],
         "level": 1,
         "casting_time": "1 minute or Ritual",
         "range": "30 feet",
-        "components": ["V","S","M (a bell and silver wire)"],
+        "components": [
+            "V",
+            "S",
+            "M (a bell and silver wire)"
+        ],
         "duration": "8 hours",
         "description": [
             {
@@ -305,17 +408,25 @@
         ],
         "previous_spell": 9,
         "next_spell": 11,
-        "special": ["R"]
+        "special": [
+            "R"
+        ]
     },
     {
         "id": 11,
         "name": "Alter Self",
         "school": "Transmutation",
-        "spell_lists": ["Sorcerer","Wizard"],
+        "spell_lists": [
+            "Sorcerer",
+            "Wizard"
+        ],
         "level": 2,
         "casting_time": "Action",
         "range": "Self",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Concentration, up to 1 hour",
         "description": [
             {
@@ -340,17 +451,27 @@
         ],
         "previous_spell": 10,
         "next_spell": 12,
-        "special": ["C"]
+        "special": [
+            "C"
+        ]
     },
     {
         "id": 12,
         "name": "Animal Friendship",
         "school": "Enchantment",
-        "spell_lists": ["Bard","Druid","Ranger"],
+        "spell_lists": [
+            "Bard",
+            "Druid",
+            "Ranger"
+        ],
         "level": 1,
         "casting_time": "Action",
         "range": "30 feet",
-        "components": ["V","S","M (a morsel of food)"],
+        "components": [
+            "V",
+            "S",
+            "M (a morsel of food)"
+        ],
         "duration": "24 hours",
         "description": [
             {
@@ -371,11 +492,19 @@
         "id": 13,
         "name": "Animal Messenger",
         "school": "Enchantment",
-        "spell_lists": ["Bard","Druid","Ranger"],
+        "spell_lists": [
+            "Bard",
+            "Druid",
+            "Ranger"
+        ],
         "level": 2,
         "casting_time": "Action or Ritual",
         "range": "30 feet",
-        "components": ["V","S","M (a morsel of food)"],
+        "components": [
+            "V",
+            "S",
+            "M (a morsel of food)"
+        ],
         "duration": "24 hours",
         "description": [
             {
@@ -394,17 +523,24 @@
         ],
         "previous_spell": 12,
         "next_spell": 14,
-        "special": ["R"]
+        "special": [
+            "R"
+        ]
     },
     {
         "id": 14,
         "name": "Animal Shapes",
         "school": "Transmutation",
-        "spell_lists": ["Druid"],
+        "spell_lists": [
+            "Druid"
+        ],
         "level": 8,
         "casting_time": "Action",
         "range": "30 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "24 hours",
         "description": [
             {
@@ -428,14 +564,21 @@
         "id": 15,
         "name": "Animate Dead",
         "school": "Necromancy",
-        "spell_lists": ["Cleric","Wizard"],
+        "spell_lists": [
+            "Cleric",
+            "Wizard"
+        ],
         "level": 3,
         "casting_time": "1 minute",
         "range": "10 feet",
-        "components": ["V","S","M (a drop of blood, a piece of flesh, and a pinch of bone dust)"],
+        "components": [
+            "V",
+            "S",
+            "M (a drop of blood, a piece of flesh, and a pinch of bone dust)"
+        ],
         "duration": "Instantaneous",
         "description": [
-             {
+            {
                 "type": "simple",
                 "text": "Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a Skeleton if you chose bones or a Zombie if you chose a corpse (see appendix B for the stat blocks)."
             },
@@ -461,14 +604,21 @@
         "id": 16,
         "name": "Animate Objects",
         "school": "Transmutation",
-        "spell_lists": ["Bard","Sorcerer","Wizard"],
+        "spell_lists": [
+            "Bard",
+            "Sorcerer",
+            "Wizard"
+        ],
         "level": 5,
         "casting_time": "Action",
         "range": "120 feet",
-        "components": ["V","S"],
+        "components": [
+            "V",
+            "S"
+        ],
         "duration": "Concentration, up to 1 minute",
         "description": [
-             {
+            {
                 "type": "simple",
                 "text": "Objects animate at your command. Choose a number of nonmagical objects within range that aren’t being worn or carried, aren’t fixed to a surface, and aren’t Gargantuan. The maximum number of objects is equal to your spellcasting ability modifier; for this number, a Medium or smaller target counts as one object, a Large target counts as two, and a Huge target counts as three."
             },

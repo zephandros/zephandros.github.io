@@ -26,7 +26,7 @@
                 "text": "The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
             }
         ],
-        "previous_spell": 0,
+        "previous_spell": 17,
         "next_spell": 9,
         "special": []
     },
@@ -638,6 +638,37 @@
         ],
         "previous_spell": 15,
         "next_spell": 17,
+        "special": []
+    },
+    {
+        "id": 17,
+        "name": "Acid Arrow",
+        "school": "Evocation",
+        "spell_lists": [
+            "Wizard"
+        ],
+        "level": 2,
+        "casting_time": "Action",
+        "range": "90 feet",
+        "components": [
+            "V",
+            "S",
+            "M (powdered rhubarb leaf)"
+        ],
+        "duration": "Instantaneous",
+        "description": [
+            {
+                "type": "simple",
+                "text": "A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage only."
+            },
+            {
+                "type": "labeled",
+                "label": "Using a Higher-Level Spell Slot",
+                "text": "The damage (both initial and later) increases by 1d4 for each spell slot level above 2."
+            }
+        ],
+        "previous_spell": 0,
+        "next_spell": 1,
         "special": []
     }
 ]
